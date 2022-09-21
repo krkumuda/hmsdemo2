@@ -11,6 +11,7 @@ public class AddPatientPage_DocPage {
 		PageFactory.initElements(driver, this);
 	}
 	//changes done in addpatientpage
+	//changes done by person1
 	@FindBy(name="patname")
 	private WebElement patNameTxt;
 	@FindBy (name="patcontact")
