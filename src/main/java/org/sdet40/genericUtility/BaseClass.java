@@ -18,6 +18,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
+	//changes done by suma
 
 	protected WebDriver driver;
 	// Object Creation for Lib/
