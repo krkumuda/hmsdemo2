@@ -10,6 +10,7 @@ public class AddPatientPage_DocPage {
 	public AddPatientPage_DocPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
+	//changes done in addpatientpage
 	@FindBy(name="patname")
 	private WebElement patNameTxt;
 	@FindBy (name="patcontact")
