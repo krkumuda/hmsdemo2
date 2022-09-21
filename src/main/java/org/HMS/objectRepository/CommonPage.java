@@ -15,7 +15,7 @@ public class CommonPage {
 	@FindBy (xpath = "//a[@href='logout.php']")
 	private WebElement logout;
 
-	
+	//changes done here
 	public void logoutActivity() {
 		dropDownForLogout.click();
 		logout.click();
